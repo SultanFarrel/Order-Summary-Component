@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- Icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" style="width: 18rem">
+        <img src="images/illustration-hero.svg" class="card-img-top" alt="#" />
+        <div class="card-body">
+          <h1 class="card-title">Order Summary</h1>
+          <p class="card-text">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="container-fluid rounded-3 plan-container">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="music-img" src="images/icon-music.svg" alt="" />
+              </div>
+              <div class="col-md-5 plan-text">
+                Annual Plan <span>$59.99/year</span>
+              </div>
+              <div class="col-md-4 change-coloumn">
+                <a href="#">Change</a>
+              </div>
+            </div>
+          </div>
+          <div class="d-grid">
+            <button class="btn btn-primary proceed-btn" type="button">
+              Proceed to Payment
+            </button>
+            <button class="btn cancel-btn" type="button">Cancel Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>

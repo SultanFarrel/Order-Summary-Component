@@ -1,0 +1,70 @@
+
+.card {
+   margin: auto; 
+}
+
+.card-title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+.plan-container {
+    background-color: hsl(224, 73%, 97%);
+    margin: 5px 0 20px;
+}
+
+.music-img {
+    width: 30px;
+    padding: 15px 0 15px;
+}
+
+.plan-text {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 10px 0 10px;
+}
+
+.plan-text span {
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.change-coloumn {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    padding: 16px 0 10px;
+}
+
+.proceed-btn {
+    font-family: 'Red Hat Display', sans-serif !important;
+    font-size: 12px !important;
+}
+
+.cancel-btn {
+    color: hsl(224, 23%, 55%) !important;
+    font-family: 'Red Hat Display', sans-serif !important;
+    font-size: 12px !important;
+}
+
+.cancel-btn :hover {
+    color: black !important;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
